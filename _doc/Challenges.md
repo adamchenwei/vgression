@@ -1,0 +1,5 @@
+- When Loading experiement name and variant, there is problem that page will continuouly loading
+  - ACTUALLY even when no experiments still same problem, continously loading... maybe because its localhost
+  - seems it only happen in VPN
+  - not happening when connect to CHEWYSEC
+  - wonder why?

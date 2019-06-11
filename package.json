@@ -1,0 +1,38 @@
+{
+  "name": "puppeteer-image-diff-boilerplate",
+  "version": "0.0.1",
+  "description": "puppeteer-image-diff-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:update": "jest -u",
+    "test:cleanCache": "jest --clearCache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamchenwei/puppeteer-image-diff-boilerplate.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "image-diff",
+    "jest"
+  ],
+  "author": "adamchenwei@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamchenwei/puppeteer-image-diff-boilerplate/issues"
+  },
+  "homepage": "https://github.com/adamchenwei/puppeteer-image-diff-boilerplate#readme",
+  "devDependencies": {
+    "babel-jest": "^24.7.1",
+    "chalk": "^2.4.2",
+    "glob": "^7.1.3",
+    "image-to-base64": "^2.0.1",
+    "jest": "^24.7.1",
+    "jest-cli": "^24.7.1",
+    "jest-image-snapshot": "^2.8.1",
+    "lodash": "^4.17.11",
+    "puppeteer": "^1.14.0"
+  },
+  "dependencies": {}
+}
